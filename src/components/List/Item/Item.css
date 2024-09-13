@@ -1,0 +1,27 @@
+.item {
+  display: grid;
+  grid-template-columns: 1fr 6rem 4rem;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  transition: background-color 0.3s ease;
+}
+
+.item:hover {
+  background-color: rgba(148, 148, 148, 0.3);
+}
+
+.item__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: start;
+}
+
+.item__rating {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.6rem;
+  text-align: center;
+  font-weight: bold;
+}

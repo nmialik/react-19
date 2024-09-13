@@ -1,0 +1,44 @@
+.user-form {
+    max-width: 28rem;
+    margin: 2rem auto;
+    padding: 1.25rem;
+    background-color: #1e1e1e;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .user-form__group {
+    margin-bottom: 1.25rem;
+  }
+  
+  .user-form__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #b3b3b3;
+  }
+  
+  .user-form__input {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    transition:
+      background-color 0.3s ease,
+      border-color 0.3s ease;
+  }
+  
+  .user-form__input:focus {
+    outline: none;
+    background-color: #444;
+    border-color: #1db954;
+  }
+  
+
+  .user-form__error {
+    margin-bottom: 1.25rem;
+    color: #ef3d3d;
+  }

@@ -1,0 +1,22 @@
+header {
+  background: linear-gradient(135deg, #2E3466 0%, #121212 100%);
+  padding: 1rem;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.625rem;
+}
+
+.header__link {
+  margin: 0 0.625rem;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.header__link--active {
+  color: #1db954;
+  font-weight: bold;
+}

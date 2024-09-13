@@ -1,0 +1,14 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.actions__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions__panel {
+  width: 48%;
+}
